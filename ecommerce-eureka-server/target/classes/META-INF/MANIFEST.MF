@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: jaire
+Build-Jdk: 11.0.7
+Implementation-Title: ecommerce-eureka-server
+Implementation-Version: 1.0.0
+Implementation-Vendor-Id: com.coderef
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://projects.spring.io/spring-boot/ecommerce-eur
+ eka-server/
+Created-By: Maven Integration for Eclipse
+

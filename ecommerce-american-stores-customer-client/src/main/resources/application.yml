@@ -1,0 +1,48 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: customer-service
+# Datasource
+  datasource:
+      #
+      data: classpath:/sql/data.sql
+      driver-class-name: com.mysql.jdbc.Driver
+      password: '159753'
+      platform: mysql
+      schema: classpath:/sql/schema.sql
+      url: jdbc:mysql://localhost/ecommerce?useTimezone=true&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false&requireSSL=false
+      username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    generate-ddl: false
+    hibernate:
+        ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    hostname: localhost
+    port: 9000
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 3000
+
+authserver:
+  hostname: http://localhost:9001
+security:
+  oauth2:
+    resource:
+      userInfoUri: ${authserver.hostname}/user
+      id: customer
+          
+info:
+   app:
+     name: \@project.name@
+     description: \@project.description@
+     version: \@project.version@
+     timestamp: \@timestamp@

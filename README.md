@@ -33,6 +33,22 @@
   Apache Maven	        3.6.1	                Build e Gestão de Dependências
                
   MySql                 runtime               MySql Database
+  
+  NodeJs                v12.18.3              NodeJs
+  
+  Angular Cli           V10                   AngularCli
+  
+  Angular Material      runtime               Angular Material
+  
+  
+  Executar projetos na seguinte ordem:
+     ecommerce-eureka-server
+     ecommerce-auth-server
+     ecommerce-american-stores-customer-client
+     ecommerce-american-stores-product-client
+     
+  Projeto Spa:
+     spa-ecommerce-american-stores
 
 ## Contratos de APIs <a name="contratos-de-apis"></a>
   Este projeto utiliza a especificação OpenAPI para documentação e catálogo de APIs. Depois de executar a aplicação, é possível consultar todas operações fornecidas pelo serviço e testá-las respectivamente acessando o endereço `http://localhost:{port}/swagger-ui.html`.

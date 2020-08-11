@@ -1,0 +1,29 @@
+.example-card {
+    width: 17%;
+    float: left;
+    margin: 1.6%;
+} 
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .container {
+      width:96%;
+      display: inline-block;
+      padding: 2%;
+      margin-top: 4%;
+      /* display:flex;
+      flex-wrap: wrap;
+      align-items: center;
+  justify-content: center; */
+  }
+
+  .shopping{
+    float:right;
+  }
+  
+  .valor{
+    font-size: 20px;
+  }

@@ -1,0 +1,23 @@
+
+<!-- <ul>
+    <li *ngFor="let product of products">
+        {{product.productId}} - {{product.description}} - {{product.technicalSpecification}} - {{product.dimension}}
+    </li>
+</ul> -->
+<div class="container">
+    <h2>Lista de Produtos</h2>
+    <mat-card class="example-card" style="cursor: pointer;" *ngFor="let product of products" (click)="alternarComponent(product.productId)">
+        <mat-card-header>
+          <mat-card-title>{{product.productId}}</mat-card-title>
+          <mat-card-subtitle>{{product.description}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>The Shiba Inu is the smallest of the six original and distinct.</p>
+        </mat-card-content>
+        <span class="valor">RS 2,100</span>
+        <span class="shopping" style="cursor: pointer;"
+        ><mat-icon aria-hidden="false" aria-label="Example home icon">shopping_cart</mat-icon></span>
+      </mat-card>
+    
+</div>

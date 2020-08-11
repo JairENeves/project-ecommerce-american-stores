@@ -1,0 +1,80 @@
+.container {
+  width:94%;
+  display: inline-block;
+  padding: 3%;
+  margin-top: 4%;
+  /* display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: center; */
+}
+
+.container-imagens{
+  width:35%;
+  height: 100%;
+  float: left;
+  text-align:center;
+
+}
+
+.valor{
+  font-size: 24px;
+}
+
+.estoque{
+  margin-left: 3%;
+}
+
+.container-imagens img {
+  max-width:96%;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  border:10px inset #b1b1c3;
+	background: #b1b1c3;
+}
+
+.container-detalhes{
+  background-color: #f3f3f3;
+  width:61%;
+  padding: 2%;
+  height: 100%;
+  float: left;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+} 
+
+button{
+  width: 40%;
+    height: 40px;
+    font-size: 25px;
+    background-color: #07ff31;
+    color: #fff;
+    border: none;
+}

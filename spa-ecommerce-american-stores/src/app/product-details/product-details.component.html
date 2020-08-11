@@ -1,0 +1,45 @@
+
+<!-- <ul>
+    <li *ngFor="let product of products">
+        {{product.productId}} - {{product.description}} - {{product.technicalSpecification}} - {{product.dimension}}
+    </li>
+</ul> -->
+
+<div class="container">
+  <div class="detalhe" style="width:100%">
+    <span class="info">
+      <mat-icon style="cursor: pointer;" aria-hidden="false" (click)="returnListing()">keyboard_backspace</mat-icon>
+       Detalhes
+     </span>
+  </div>
+  <div class="container-imagens">
+    <img  src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <br>
+    <span class="valor">R$ {{product.price}}</span>
+    <span class="estoque">Disponíveis:  {{product.stock}}</span>
+    <br>
+    <div class="example-button-row">
+      <button mat-flat-button color="primary">Comprar</button>
+    </div>
+  </div>
+  <div class="container-detalhes">
+   <p><b>Descrição:</b> {{product.description}}</p>
+   <p><b>Características:</b> {{product.characteristic}}</p>
+   <p><b>Especificações técnicas:</b> {{product.technical_specification}}</p>
+  </div>
+  
+  <!-- <mat-card class="example-card" *ngFor="let product of products">
+      <mat-card-header>
+        <mat-card-title>{{product.productId}}</mat-card-title>
+        <mat-card-subtitle>{{product.description}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>The Shiba Inu is the smallest of the six original and distinct.</p>
+      </mat-card-content>
+      <span class="valor">RS 2,100</span>
+      <span class="shopping" style="cursor: pointer;"(click)="alternarComponent(product.productId)"
+      ><mat-icon aria-hidden="false" aria-label="Example home icon">shopping_cart</mat-icon></span>
+    </mat-card>
+   -->
+</div>

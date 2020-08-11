@@ -1,0 +1,18 @@
+.header{
+    height: 3%;
+    background-color: #494990;
+    position: fixed;
+    width: 96%;
+    padding: 2%;
+    z-index: 1;
+}
+
+h1{
+    color: #fff;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}

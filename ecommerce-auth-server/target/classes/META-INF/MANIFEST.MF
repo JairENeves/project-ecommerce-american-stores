@@ -3,7 +3,7 @@ Built-By: jaire
 Build-Jdk: 11.0.7
 Implementation-Title: ecommerce-auth-server
 Implementation-Version: 1.0.0
-Implementation-Vendor-Id: com.coderef
+Implementation-Vendor-Id: com.ecommerce.auth.server
 Implementation-Vendor: Pivotal Software, Inc.
 Implementation-URL: http://projects.spring.io/spring-boot/ecommerce-auth
  -server/
